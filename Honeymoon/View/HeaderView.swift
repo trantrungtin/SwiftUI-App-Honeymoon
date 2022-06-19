@@ -16,6 +16,8 @@ struct HeaderView: View {
     var body: some View {
         HStack {
             Button(action: {
+                playClickSound()
+                haptics.notificationOccurred(.success)
                 self.showInfoView.toggle()
             }) {
                 Image(systemName: "info.circle")
@@ -36,6 +38,8 @@ struct HeaderView: View {
             Spacer()
             
             Button(action: {
+                playClickSound()
+                haptics.notificationOccurred(.success)
                 self.showGuideView.toggle()
             }) {
                 Image(systemName: "questionmark.circle")

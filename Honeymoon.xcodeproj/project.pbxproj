@@ -11,7 +11,6 @@
 		D715B952285F1D3100243C46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B951285F1D3100243C46 /* ContentView.swift */; };
 		D715B954285F1D3300243C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D715B953285F1D3300243C46 /* Assets.xcassets */; };
 		D715B957285F1D3300243C46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D715B956285F1D3300243C46 /* Preview Assets.xcassets */; };
-		D715B95E285F1FE000243C46 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D715B95D285F1FE000243C46 /* Sounds */; };
 		D715B960285F24E600243C46 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D715B95F285F24E600243C46 /* Launch Screen.storyboard */; };
 		D715B963285F2AFC00243C46 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B962285F2AFC00243C46 /* Destination.swift */; };
 		D715B966285F2C5B00243C46 /* DestinationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B965285F2C5B00243C46 /* DestinationData.swift */; };
@@ -25,6 +24,9 @@
 		D715B979285F43E800243C46 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B978285F43E800243C46 /* Modifier.swift */; };
 		D71CF7A6285F627D0083185E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CF7A5285F627D0083185E /* Constant.swift */; };
 		D71CF7A9285F66460083185E /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CF7A8285F66460083185E /* CardTransition.swift */; };
+		D71CF7AB285F67EF0083185E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CF7AA285F67EF0083185E /* PlaySound.swift */; };
+		D71CF7AE285F69CB0083185E /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D71CF7AC285F69CB0083185E /* sound-click.mp3 */; };
+		D71CF7AF285F69CB0083185E /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D71CF7AD285F69CB0083185E /* sound-rise.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +35,6 @@
 		D715B951285F1D3100243C46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D715B953285F1D3300243C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D715B956285F1D3300243C46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D715B95D285F1FE000243C46 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		D715B95F285F24E600243C46 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D715B962285F2AFC00243C46 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		D715B965285F2C5B00243C46 /* DestinationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationData.swift; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		D715B978285F43E800243C46 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 		D71CF7A5285F627D0083185E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D71CF7A8285F66460083185E /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		D71CF7AA285F67EF0083185E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		D71CF7AC285F69CB0083185E /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
+		D71CF7AD285F69CB0083185E /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +89,9 @@
 				D715B961285F2AEA00243C46 /* Model */,
 				D715B964285F2C4A00243C46 /* Data */,
 				D715B977285F43D200243C46 /* Ultility */,
-				D715B95D285F1FE000243C46 /* Sounds */,
 				D715B94F285F1D3100243C46 /* HoneymoonApp.swift */,
 				D715B953285F1D3300243C46 /* Assets.xcassets */,
+				D71CF7B0285F69CE0083185E /* Sounds */,
 				D715B955285F1D3300243C46 /* Preview Content */,
 				D715B95F285F24E600243C46 /* Launch Screen.storyboard */,
 			);
@@ -145,6 +149,7 @@
 			children = (
 				D715B978285F43E800243C46 /* Modifier.swift */,
 				D71CF7A5285F627D0083185E /* Constant.swift */,
+				D71CF7AA285F67EF0083185E /* PlaySound.swift */,
 			);
 			path = Ultility;
 			sourceTree = "<group>";
@@ -155,6 +160,15 @@
 				D71CF7A8285F66460083185E /* CardTransition.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		D71CF7B0285F69CE0083185E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D71CF7AC285F69CB0083185E /* sound-click.mp3 */,
+				D71CF7AD285F69CB0083185E /* sound-rise.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D715B95E285F1FE000243C46 /* Sounds in Resources */,
+				D71CF7AF285F69CB0083185E /* sound-rise.mp3 in Resources */,
 				D715B957285F1D3300243C46 /* Preview Assets.xcassets in Resources */,
+				D71CF7AE285F69CB0083185E /* sound-click.mp3 in Resources */,
 				D715B960285F24E600243C46 /* Launch Screen.storyboard in Resources */,
 				D715B954285F1D3300243C46 /* Assets.xcassets in Resources */,
 			);
@@ -239,6 +254,7 @@
 				D715B963285F2AFC00243C46 /* Destination.swift in Sources */,
 				D715B979285F43E800243C46 /* Modifier.swift in Sources */,
 				D71CF7A6285F627D0083185E /* Constant.swift in Sources */,
+				D71CF7AB285F67EF0083185E /* PlaySound.swift in Sources */,
 				D715B969285F2D0700243C46 /* CardView.swift in Sources */,
 				D715B972285F3B0900243C46 /* GuideComponent.swift in Sources */,
 				D71CF7A9285F66460083185E /* CardTransition.swift in Sources */,

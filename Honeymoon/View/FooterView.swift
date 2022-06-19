@@ -20,6 +20,8 @@ struct FooterView: View {
             Spacer()
             
             Button(action: {
+                playClickSound()
+                haptics.notificationOccurred(.success)
                 self.showBookingAlert.toggle()
             }) {
                 Text("Book Destination".uppercased())
