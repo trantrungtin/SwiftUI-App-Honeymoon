@@ -17,6 +17,7 @@
 		D715B966285F2C5B00243C46 /* DestinationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B965285F2C5B00243C46 /* DestinationData.swift */; };
 		D715B969285F2D0700243C46 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B968285F2D0700243C46 /* CardView.swift */; };
 		D715B96B285F364200243C46 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B96A285F364200243C46 /* HeaderView.swift */; };
+		D715B96D285F38C400243C46 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B96C285F38C400243C46 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D715B965285F2C5B00243C46 /* DestinationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationData.swift; sourceTree = "<group>"; };
 		D715B968285F2D0700243C46 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D715B96A285F364200243C46 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D715B96C285F38C400243C46 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				D715B951285F1D3100243C46 /* ContentView.swift */,
 				D715B968285F2D0700243C46 /* CardView.swift */,
 				D715B96A285F364200243C46 /* HeaderView.swift */,
+				D715B96C285F38C400243C46 /* FooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D715B966285F2C5B00243C46 /* DestinationData.swift in Sources */,
+				D715B96D285F38C400243C46 /* FooterView.swift in Sources */,
 				D715B96B285F364200243C46 /* HeaderView.swift in Sources */,
 				D715B952285F1D3100243C46 /* ContentView.swift in Sources */,
 				D715B950285F1D3100243C46 /* HoneymoonApp.swift in Sources */,
