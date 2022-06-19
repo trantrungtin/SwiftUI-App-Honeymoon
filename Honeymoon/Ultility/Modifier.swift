@@ -26,3 +26,12 @@ struct ButtonModifier: ViewModifier {
             .foregroundColor(.white)
     }
 }
+
+struct SymbolModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .foregroundColor(.white)
+            .font(.system(size: 128))
+            .shadow(color: colorTransparent, radius: 12, x: 0, y: 0)
+    }
+}
